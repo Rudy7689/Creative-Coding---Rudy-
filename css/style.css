@@ -1,0 +1,55 @@
+.content {
+    font-size: 40px;
+    padding-bottom: 300px;
+    color: blueviolet;
+    position: relative;
+    left: 10%;
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 40px;
+    /* display: none; */
+    visibility: hidden;
+}
+
+.content:hover {
+    color: black;
+}
+
+a:hover {
+    color: white;
+    transition: color 1s ease-in-out;
+}
+
+#hello {
+    background-color: rgb(171, 202, 255);
+}
+
+#bye {
+    background-color: aquamarine;
+}
+
+body {
+    background-color:rgb(150, 171, 234);
+    font-size: 28px;
+    font-family: 'Times New Roman', serif;
+    font-weight: 1000;
+}
+#title{
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(245, 152, 152);
+    width: 500px;
+    text-align: left;
+    /* height: 200px; */
+    border-style: solid;
+    border-width: 1px;
+    padding: 40px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* padding-bottom: 300px; */
+    position: fixed;
+    left: 60%;
+}
+span{
+  font-weight: 500;
+}
